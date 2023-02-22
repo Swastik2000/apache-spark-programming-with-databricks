@@ -130,7 +130,7 @@ print("All test pass")
 
 # ANSWER
 products_output_path = f"{DA.paths.working_dir}/delta/products"
-(products_df
+(products_df3
  .write
  .format("delta")
  .mode("overwrite")
